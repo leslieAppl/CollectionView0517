@@ -5,3 +5,5 @@
 ## CollectionViewCell.selectedBackgroundView
 
 ## DetailViewController
+
+## Deselecting cells

@@ -18,6 +18,15 @@ class C1VC: UIViewController {
         collectionItems.backgroundColor = UIColor.white
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        if let paths = collectionItems.indexPathsForSelectedItems {
+            for path in paths {
+                collectionItems.deselectItem(at: path, animated: true)
+            }
+        }
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetails" {
             let controller = segue.destination as! C1DetailVC
