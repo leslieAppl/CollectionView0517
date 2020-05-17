@@ -31,9 +31,10 @@ class C1VC: UIViewController {
         if segue.identifier == "showDetails" {
             let controller = segue.destination as! C1DetailVC
             if let paths = collectionItems.indexPathsForSelectedItems {
-                let selectedCell = paths[0].item
+                let selectedCell = paths[0]
 print(paths[0])
-                controller.selected = selectedCell
+                controller.selectedSection = selectedCell[0]
+                controller.selectedItem = selectedCell[1]
             }
         }
     }
@@ -41,13 +42,17 @@ print(paths[0])
 }
 
 extension C1VC: UICollectionViewDataSource {
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return AppData.categories.count
+    }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return AppData.items.count
+        return AppData.items[section].count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionItems.dequeueReusableCell(withReuseIdentifier: "myCell01", for: indexPath) as! MyCollectionViewCell01
-        let file = AppData.items[indexPath.item]
+        let file = AppData.items[indexPath.section][indexPath.item]
         cell.bookCoverImg.image = UIImage(named: file)
         return cell
     }
@@ -56,7 +61,7 @@ extension C1VC: UICollectionViewDataSource {
         switch kind {
         case UICollectionView.elementKindSectionHeader:
             let headerView = collectionItems.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "myHeader", for: indexPath) as! HeaderView
-            headerView.headerTitle.text = "My Books"
+            headerView.headerTitle.text = AppData.categories[indexPath.section]
             headerView.headerImg.image = UIImage(named: "gradientTop")
             return headerView
         case UICollectionView.elementKindSectionFooter:

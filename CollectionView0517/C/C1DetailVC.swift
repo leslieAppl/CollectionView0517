@@ -13,12 +13,13 @@ class C1DetailVC: UIViewController {
     @IBOutlet weak var bookCover: UIImageView!
     @IBOutlet weak var bookTitle: UILabel!
     @IBOutlet weak var bookAuthor: UILabel!
-    var selected: Int!
+    var selectedSection: Int!
+    var selectedItem: Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let file = AppData.items[selected]
+        let file = AppData.items[selectedSection][selectedItem]
         bookCover.image = UIImage(named: file)
         
         if let data = AppData.itemsData[file] {
