@@ -18,7 +18,16 @@ class C1VC: UIViewController {
         collectionItems.backgroundColor = UIColor.white
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetails" {
+            let controller = segue.destination as! C1DetailVC
+            if let paths = collectionItems.indexPathsForSelectedItems {
+                let selectedCell = paths[0].item
+print(paths[0])
+                controller.selected = selectedCell
+            }
+        }
+    }
 
 }
 
@@ -33,6 +42,5 @@ extension C1VC: UICollectionViewDataSource {
         cell.bookCoverImg.image = UIImage(named: file)
         return cell
     }
-    
     
 }

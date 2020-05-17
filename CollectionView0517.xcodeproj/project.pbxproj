@@ -21,6 +21,7 @@
 		CE6F72E22470EA22005AFBF5 /* gradientTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F72B82470EA22005AFBF5 /* gradientTop@2x.png */; };
 		CE6F72E32470EA22005AFBF5 /* gradientTop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F72B92470EA22005AFBF5 /* gradientTop@3x.png */; };
 		CE6F72E42470EA22005AFBF5 /* gradientTop.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F72BA2470EA22005AFBF5 /* gradientTop.png */; };
+		CE6F72E6247107F1005AFBF5 /* C1DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F72E5247107F1005AFBF5 /* C1DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		CE6F72B82470EA22005AFBF5 /* gradientTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradientTop@2x.png"; sourceTree = "<group>"; };
 		CE6F72B92470EA22005AFBF5 /* gradientTop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradientTop@3x.png"; sourceTree = "<group>"; };
 		CE6F72BA2470EA22005AFBF5 /* gradientTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradientTop.png; sourceTree = "<group>"; };
+		CE6F72E5247107F1005AFBF5 /* C1DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C1DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				CE6F72772470E6FB005AFBF5 /* C1VC.swift */,
+				CE6F72E5247107F1005AFBF5 /* C1DetailVC.swift */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				CE6F72882470E7DE005AFBF5 /* MyCollectionViewCell01.swift in Sources */,
 				CE6F72742470E6FB005AFBF5 /* AppDelegate.swift in Sources */,
 				CE6F72762470E6FB005AFBF5 /* SceneDelegate.swift in Sources */,
+				CE6F72E6247107F1005AFBF5 /* C1DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
