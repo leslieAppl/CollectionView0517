@@ -15,13 +15,9 @@
 		CE6F72802470E6FD005AFBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6F727E2470E6FD005AFBF5 /* LaunchScreen.storyboard */; };
 		CE6F72882470E7DE005AFBF5 /* MyCollectionViewCell01.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F72872470E7DE005AFBF5 /* MyCollectionViewCell01.swift */; };
 		CE6F728D2470E81D005AFBF5 /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F728C2470E81D005AFBF5 /* ApplicationData.swift */; };
-		CE6F72DF2470EA22005AFBF5 /* gradientBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F72B42470EA22005AFBF5 /* gradientBottom.png */; };
-		CE6F72E02470EA22005AFBF5 /* gradientBottom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F72B52470EA22005AFBF5 /* gradientBottom@3x.png */; };
-		CE6F72E12470EA22005AFBF5 /* gradientBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F72B62470EA22005AFBF5 /* gradientBottom@2x.png */; };
-		CE6F72E22470EA22005AFBF5 /* gradientTop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F72B82470EA22005AFBF5 /* gradientTop@2x.png */; };
-		CE6F72E32470EA22005AFBF5 /* gradientTop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F72B92470EA22005AFBF5 /* gradientTop@3x.png */; };
-		CE6F72E42470EA22005AFBF5 /* gradientTop.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F72BA2470EA22005AFBF5 /* gradientTop.png */; };
 		CE6F72E6247107F1005AFBF5 /* C1DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F72E5247107F1005AFBF5 /* C1DetailVC.swift */; };
+		CE6F72E82471101C005AFBF5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F72E72471101C005AFBF5 /* HeaderView.swift */; };
+		CE6F72EA2471102A005AFBF5 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F72E92471102A005AFBF5 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,13 +31,9 @@
 		CE6F72812470E6FD005AFBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6F72872470E7DE005AFBF5 /* MyCollectionViewCell01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell01.swift; sourceTree = "<group>"; };
 		CE6F728C2470E81D005AFBF5 /* ApplicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
-		CE6F72B42470EA22005AFBF5 /* gradientBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradientBottom.png; sourceTree = "<group>"; };
-		CE6F72B52470EA22005AFBF5 /* gradientBottom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradientBottom@3x.png"; sourceTree = "<group>"; };
-		CE6F72B62470EA22005AFBF5 /* gradientBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradientBottom@2x.png"; sourceTree = "<group>"; };
-		CE6F72B82470EA22005AFBF5 /* gradientTop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradientTop@2x.png"; sourceTree = "<group>"; };
-		CE6F72B92470EA22005AFBF5 /* gradientTop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradientTop@3x.png"; sourceTree = "<group>"; };
-		CE6F72BA2470EA22005AFBF5 /* gradientTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradientTop.png; sourceTree = "<group>"; };
 		CE6F72E5247107F1005AFBF5 /* C1DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C1DetailVC.swift; sourceTree = "<group>"; };
+		CE6F72E72471101C005AFBF5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		CE6F72E92471102A005AFBF5 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +73,6 @@
 				CE6F72752470E6FB005AFBF5 /* SceneDelegate.swift */,
 				CE6F72792470E6FB005AFBF5 /* Main.storyboard */,
 				CE6F727C2470E6FD005AFBF5 /* Assets.xcassets */,
-				CE6F72B32470EA22005AFBF5 /* gradientBottom */,
-				CE6F72B72470EA22005AFBF5 /* gradientTop */,
 				CE6F727E2470E6FD005AFBF5 /* LaunchScreen.storyboard */,
 				CE6F72812470E6FD005AFBF5 /* Info.plist */,
 			);
@@ -102,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				CE6F72872470E7DE005AFBF5 /* MyCollectionViewCell01.swift */,
+				CE6F72E72471101C005AFBF5 /* HeaderView.swift */,
+				CE6F72E92471102A005AFBF5 /* FooterView.swift */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -112,26 +104,6 @@
 				CE6F728C2470E81D005AFBF5 /* ApplicationData.swift */,
 			);
 			path = M;
-			sourceTree = "<group>";
-		};
-		CE6F72B32470EA22005AFBF5 /* gradientBottom */ = {
-			isa = PBXGroup;
-			children = (
-				CE6F72B42470EA22005AFBF5 /* gradientBottom.png */,
-				CE6F72B52470EA22005AFBF5 /* gradientBottom@3x.png */,
-				CE6F72B62470EA22005AFBF5 /* gradientBottom@2x.png */,
-			);
-			path = gradientBottom;
-			sourceTree = "<group>";
-		};
-		CE6F72B72470EA22005AFBF5 /* gradientTop */ = {
-			isa = PBXGroup;
-			children = (
-				CE6F72B82470EA22005AFBF5 /* gradientTop@2x.png */,
-				CE6F72B92470EA22005AFBF5 /* gradientTop@3x.png */,
-				CE6F72BA2470EA22005AFBF5 /* gradientTop.png */,
-			);
-			path = gradientTop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,14 +165,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6F72802470E6FD005AFBF5 /* LaunchScreen.storyboard in Resources */,
-				CE6F72DF2470EA22005AFBF5 /* gradientBottom.png in Resources */,
-				CE6F72E32470EA22005AFBF5 /* gradientTop@3x.png in Resources */,
 				CE6F727D2470E6FD005AFBF5 /* Assets.xcassets in Resources */,
 				CE6F727B2470E6FB005AFBF5 /* Main.storyboard in Resources */,
-				CE6F72E42470EA22005AFBF5 /* gradientTop.png in Resources */,
-				CE6F72E22470EA22005AFBF5 /* gradientTop@2x.png in Resources */,
-				CE6F72E02470EA22005AFBF5 /* gradientBottom@3x.png in Resources */,
-				CE6F72E12470EA22005AFBF5 /* gradientBottom@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +182,9 @@
 				CE6F72882470E7DE005AFBF5 /* MyCollectionViewCell01.swift in Sources */,
 				CE6F72742470E6FB005AFBF5 /* AppDelegate.swift in Sources */,
 				CE6F72762470E6FB005AFBF5 /* SceneDelegate.swift in Sources */,
+				CE6F72EA2471102A005AFBF5 /* FooterView.swift in Sources */,
 				CE6F72E6247107F1005AFBF5 /* C1DetailVC.swift in Sources */,
+				CE6F72E82471101C005AFBF5 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

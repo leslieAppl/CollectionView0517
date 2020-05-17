@@ -52,4 +52,20 @@ extension C1VC: UICollectionViewDataSource {
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        switch kind {
+        case UICollectionView.elementKindSectionHeader:
+            let headerView = collectionItems.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "myHeader", for: indexPath) as! HeaderView
+            headerView.headerTitle.text = "My Books"
+            headerView.headerImg.image = UIImage(named: "gradientTop")
+            return headerView
+        case UICollectionView.elementKindSectionFooter:
+            let footerView = collectionItems.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: "myFooter", for: indexPath) as! FooterView
+            footerView.footerImg.image = UIImage(named: "gradientBottom")
+            return footerView
+        default:
+            assert(false, "Error")
+        }
+    }
+    
 }
