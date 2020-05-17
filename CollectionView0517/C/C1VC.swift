@@ -16,6 +16,10 @@ class C1VC: UIViewController {
         super.viewDidLoad()
         collectionItems.dataSource = self
         collectionItems.backgroundColor = UIColor.white
+        
+//Configuring Collection View Flow Layout
+        let layout = collectionItems.collectionViewLayout as! UICollectionViewFlowLayout
+        layout.sectionInset = UIEdgeInsets(top: 25, left: 20, bottom: 25, right: 20)
     }
     
     override func viewWillAppear(_ animated: Bool) {
