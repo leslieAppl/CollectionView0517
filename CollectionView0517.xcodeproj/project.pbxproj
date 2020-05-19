@@ -22,6 +22,9 @@
 		CE6F72EE2472D3E9005AFBF5 /* C2DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F72ED2472D3E9005AFBF5 /* C2DetailVC.swift */; };
 		CE6F72F02472D450005AFBF5 /* MyCollectionViewCell02.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F72EF2472D450005AFBF5 /* MyCollectionViewCell02.swift */; };
 		CE6F72F22472D560005AFBF5 /* MyCustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F72F12472D560005AFBF5 /* MyCustomLayout.swift */; };
+		CE6F72F424737605005AFBF5 /* MyCollectionViewCell03.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F72F324737605005AFBF5 /* MyCollectionViewCell03.swift */; };
+		CE6F72F6247379EC005AFBF5 /* C3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F72F5247379EC005AFBF5 /* C3VC.swift */; };
+		CE6F72F82473829E005AFBF5 /* C3DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F72F72473829E005AFBF5 /* C3DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		CE6F72ED2472D3E9005AFBF5 /* C2DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C2DetailVC.swift; sourceTree = "<group>"; };
 		CE6F72EF2472D450005AFBF5 /* MyCollectionViewCell02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell02.swift; sourceTree = "<group>"; };
 		CE6F72F12472D560005AFBF5 /* MyCustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomLayout.swift; sourceTree = "<group>"; };
+		CE6F72F324737605005AFBF5 /* MyCollectionViewCell03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell03.swift; sourceTree = "<group>"; };
+		CE6F72F5247379EC005AFBF5 /* C3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C3VC.swift; sourceTree = "<group>"; };
+		CE6F72F72473829E005AFBF5 /* C3DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C3DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 				CE6F72E5247107F1005AFBF5 /* C1DetailVC.swift */,
 				CE6F72EB2472D3D2005AFBF5 /* C2VC.swift */,
 				CE6F72ED2472D3E9005AFBF5 /* C2DetailVC.swift */,
+				CE6F72F5247379EC005AFBF5 /* C3VC.swift */,
+				CE6F72F72473829E005AFBF5 /* C3DetailVC.swift */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -106,6 +114,7 @@
 				CE6F72E92471102A005AFBF5 /* FooterView.swift */,
 				CE6F72EF2472D450005AFBF5 /* MyCollectionViewCell02.swift */,
 				CE6F72F12472D560005AFBF5 /* MyCustomLayout.swift */,
+				CE6F72F324737605005AFBF5 /* MyCollectionViewCell03.swift */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -191,6 +200,7 @@
 			files = (
 				CE6F728D2470E81D005AFBF5 /* ApplicationData.swift in Sources */,
 				CE6F72782470E6FB005AFBF5 /* C1VC.swift in Sources */,
+				CE6F72F424737605005AFBF5 /* MyCollectionViewCell03.swift in Sources */,
 				CE6F72882470E7DE005AFBF5 /* MyCollectionViewCell01.swift in Sources */,
 				CE6F72742470E6FB005AFBF5 /* AppDelegate.swift in Sources */,
 				CE6F72762470E6FB005AFBF5 /* SceneDelegate.swift in Sources */,
@@ -200,6 +210,8 @@
 				CE6F72EC2472D3D2005AFBF5 /* C2VC.swift in Sources */,
 				CE6F72EE2472D3E9005AFBF5 /* C2DetailVC.swift in Sources */,
 				CE6F72F22472D560005AFBF5 /* MyCustomLayout.swift in Sources */,
+				CE6F72F6247379EC005AFBF5 /* C3VC.swift in Sources */,
+				CE6F72F82473829E005AFBF5 /* C3DetailVC.swift in Sources */,
 				CE6F72E82471101C005AFBF5 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

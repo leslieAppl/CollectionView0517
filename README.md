@@ -16,3 +16,4 @@
 
 ## Configuring Custom Layout
 
+## Collection View Scroll Horizontal
