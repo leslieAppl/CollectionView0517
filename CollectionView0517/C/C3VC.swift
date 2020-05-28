@@ -14,7 +14,6 @@ class C3VC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         collectionItems.dataSource = self
         collectionItems.backgroundColor = UIColor.clear
         
